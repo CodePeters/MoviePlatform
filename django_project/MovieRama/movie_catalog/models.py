@@ -9,7 +9,7 @@ class Movie(models.Model):
 	title = models.CharField(max_length=200)
 	description = models.TextField(help_text='Enter a brief description of the movie')
 	user = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
-	date = models.DateField()
+	date = models.DateField("date published")
 	hates = models.IntegerField(default=0)
 	likes = models.IntegerField(default=0)
 

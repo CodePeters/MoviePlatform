@@ -23,7 +23,7 @@
 				<nav class="navbar navbar-dark bg-dark">
 				  <a class="navbar-brand mt-1 mb-2" href="/index">
 				  	{% load static %}
-					<img src="{% static "movie_catalog/images/0.png" %}" alt="My image" width="40" height="40" loading="lazy">
+					<img src="{% static "movie_catalog/images/logo3.png" %}" alt="My image" width="40" height="40" loading="lazy">
 					<span  style="font-family:Comic Sans MS;">
 				    ovieRama</span>
 				  </a>
@@ -36,7 +36,7 @@
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				    {% if user.is_authenticated %}
-				  		 Welcome {{user.get_username}}
+				  		Welcome {{user.get_username}}
 				  	{% endif %}
 				  </button>
 
@@ -44,8 +44,10 @@
 				    <div class="navbar-nav">
 				      <a class="nav-item nav-link active" href="/index">Home <span class="sr-only">(current)</span></a>
 				      {% if not user.is_authenticated %}
-					      <a class="nav-item nav-link" href="/register">Register</a>
-					      <a class="nav-item nav-link" href="/login">Login</a>
+					    	<a class="nav-item nav-link" href="/register">Register</a>
+					    	<a class="nav-item nav-link" href="/login">Login</a>
+					  {% else %}
+					  		<a class="nav-item nav-link" href="/logout">Logout</a>
 				      {% endif %}
 				    </div>
 				  </div>
