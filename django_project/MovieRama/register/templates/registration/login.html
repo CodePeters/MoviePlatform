@@ -1,0 +1,13 @@
+{% extends "movie_catalog/base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %}
+	<form method = "POST" class="form-group">
+		{% csrf_token %}
+		<p>Don't have an account? Create one: <a href="/register">Register</a></p>
+		{{ form|crispy }}
+		<button type="submit" class="btn btn-success">SignUp</button>
+	</form>	
+{% endblock %}
