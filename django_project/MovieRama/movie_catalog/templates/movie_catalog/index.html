@@ -3,36 +3,63 @@
 {% block title %} Index {% endblock %}
 
 {% block content %}
-	<div style=" padding-top: 20px;" >
-		<span class="border border-dark col-12" style="display: inline-block; padding-top: 20px;  height: 80px; background-color: #DCDCDC;">
-			<a style=" padding-left: 10px;"> Sort by: </a>
-			<button type="button" class="btn btn-outline-dark">​ l​​ikes ​</button>
-			<button type="button" class="btn btn-outline-dark">​​ hates​​ </button>
-			<button type="button" class="btn btn-outline-dark"> Date </button> 	
-		</span>
-	</div>
+		
 
 	<div id="my-list">
-		<ul class="list-group align-items-center" style="padding-top: 20px;"> 
+		<div style=" padding-top: 20px;" >
+			<span class=" controls border border-dark col-12" style="display: inline-block; padding-top: 20px;  height: 80px; background-color: #DCDCDC;">
+				<a style=" padding-left: 10px;"> Sort by: </a>
+				<button id="b1" type="button" class="sort btn btn-outline-dark" data-sort="likes">​ l​​ikes ​&#8593; </button>
+				<button id="b2" type="button" class="sort btn btn-outline-dark" data-sort="hates">​​ hates​​ &#8593; </button>
+				<button id="b3" type="button" class="sort btn btn-outline-dark" data-sort="date"> date  &#8593; </button> 	
+			</span>
+		</div>
+
+		<ul class="list list-group align-items-center" style="padding-top: 20px;"> 
 		{% for movie in movie_list %}
-			<li class="card" style="width: 40rem; font-family:Comic Sans MS;" >
-				<div class="card-body">
-					<h4 class="card-title">{{ movie.title }}</h5>
-					<span style="font-size: 14px;">
-						Posted by:
-						<a href="#" class="card-link"> {{ movie.user }}</a>
-						<a style="padding-left: 10px;"> {{ movie.get_date }} days ago</a>
-					</span>
-					<p class="card-text" style="padding-top: 10px; font-size: 17px;" >{{ movie.description }}</p>
-					<span style="font-size: 14px;">		
-						<a> {{ movie.likes }} Likes</a>
-						<a class="card-link"> | {{ movie.hates }} Hates</a>
-					</span>
-				</div>
-			</li>
-			&nbsp;
+			<div style="padding-top: 20px;">
+				<li class=" card" style="width: 40rem; font-family:Comic Sans MS; ">
+					<div class="card-body">
+						<h4 class="card-title">{{ movie.title }}</h5>
+						<span style="font-size: 14px;">
+							Posted by:
+							<a href="#" class="card-link"> {{ movie.user }}</a>
+							<a class="date" style="padding-left: 10px;"> {{ movie.get_date }} days ago</a>
+						</span>
+						<p class="card-text" style="padding-top: 10px; font-size: 17px;" >{{ movie.description }}</p>
+						<span style="font-size: 14px;">		
+							<a class="likes"> {{ movie.likes }} Likes</a>
+							<a class="hates card-link"> | {{ movie.hates }} Hates</a>
+						</span>
+					</div>
+				</li>
+			</div>
 		{% endfor %}
 		</ul>
 	</div>
+<script type="text/javascript">
+		
+
+		document.getElementById("b1").addEventListener("click", function(){change('b1');} );
+		document.getElementById("b2").addEventListener("click", function(){change('b2');} );
+		document.getElementById("b3").addEventListener("click", function(){change('b3');} );
+		function change(btn){
+			var txt = $("#"+btn).html()
+			// var lastChar = txt.substr(txt.length - 1);
+			// alert(txt) 
+			if(txt=='l​​ikes &uarr' ){
+				document.getElementById(btn).innerText = txt+1;}
+		}
+// &#8595; innerText
+  	</script>
+
+	<script type="text/javascript">
+		
+		var options = {
+  			valueNames: ['likes', 'hates', 'date']
+		};
+		var myList = new List('my-list', options);
+
+  	</script>
 
 {% endblock %}
