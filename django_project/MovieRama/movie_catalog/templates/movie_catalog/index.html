@@ -3,28 +3,36 @@
 {% block title %} Index {% endblock %}
 
 {% block content %}
+	<div style=" padding-top: 20px;" >
+		<span class="border border-dark col-12" style="display: inline-block; padding-top: 20px;  height: 80px; background-color: #DCDCDC;">
+			<a style=" padding-left: 10px;"> Sort by: </a>
+			<button type="button" class="btn btn-outline-dark">​ l​​ikes ​</button>
+			<button type="button" class="btn btn-outline-dark">​​ hates​​ </button>
+			<button type="button" class="btn btn-outline-dark"> Date </button> 	
+		</span>
+	</div>
 
-	<div class="container">
-	<ul class="list-group align-items-center">
-	{% for movie in movie_list %}
-		&nbsp;
-		<li class="card" style="width: 25rem; font-family:Comic Sans MS;">
-			<div class="card-body">
-				<h5 class="card-title">{{ movie.title }}</h5>
-				<span>
-					Posted by:
-					<a href="#" class="card-link"> {{ movie.user }}</a>
-					<a> {{ movie.date }}</a>
-				</span>
-				<p class="card-text">{{ movie.description }}</p>
-				<span>		
-					<a> {{ movie.likes }} Likes</a>
-					<a class="card-link"> | {{ movie.hates }} Hates</a>
-				</span>
-			</div>
-		</li>
-	{% endfor %}
-	</ul>
-</div>
+	<div id="my-list">
+		<ul class="list-group align-items-center" style="padding-top: 20px;"> 
+		{% for movie in movie_list %}
+			<li class="card" style="width: 40rem; font-family:Comic Sans MS;" >
+				<div class="card-body">
+					<h4 class="card-title">{{ movie.title }}</h5>
+					<span style="font-size: 14px;">
+						Posted by:
+						<a href="#" class="card-link"> {{ movie.user }}</a>
+						<a style="padding-left: 10px;"> {{ movie.get_date }} days ago</a>
+					</span>
+					<p class="card-text" style="padding-top: 10px; font-size: 17px;" >{{ movie.description }}</p>
+					<span style="font-size: 14px;">		
+						<a> {{ movie.likes }} Likes</a>
+						<a class="card-link"> | {{ movie.hates }} Hates</a>
+					</span>
+				</div>
+			</li>
+			&nbsp;
+		{% endfor %}
+		</ul>
+	</div>
 
 {% endblock %}

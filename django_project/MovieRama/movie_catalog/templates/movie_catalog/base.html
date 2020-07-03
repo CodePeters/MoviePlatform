@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
+	<script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
 	<style>
 		input.form-control { width: 500px!important; }
 	</style>
@@ -25,7 +25,8 @@
 				  	{% load static %}
 					<img src="{% static "movie_catalog/images/logo3.png" %}" alt="My image" width="40" height="40" loading="lazy">
 					<span  style="font-family:Comic Sans MS;">
-				    ovieRama</span>
+				    	ovieRama
+					</span>
 				  </a>
 
 				  <form class="form-inline">
@@ -47,6 +48,8 @@
 					    	<a class="nav-item nav-link" href="/register">Register</a>
 					    	<a class="nav-item nav-link" href="/login">Login</a>
 					  {% else %}
+					  		<a class="nav-item nav-link" href="/logout">Your Profile</a>
+					  		<a class="nav-item nav-link" href="/index/create">Create Movie</a>
 					  		<a class="nav-item nav-link" href="/logout">Logout</a>
 				      {% endif %}
 				    </div>
