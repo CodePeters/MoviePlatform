@@ -1,0 +1,21 @@
+/*.rotate {
+    -moz-transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}*/
+.rotate1.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+.rotate2.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+.rotate3.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}

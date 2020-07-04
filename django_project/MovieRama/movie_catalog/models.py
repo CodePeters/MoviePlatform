@@ -26,9 +26,12 @@ class Movie(models.Model):
 
 class Review(models.Model):
 	user = models.ForeignKey(User, on_delete=models.PROTECT)
-	role = models.ForeignKey(Movie, on_delete=models.PROTECT)
+	movie = models.ForeignKey(Movie, on_delete=models.PROTECT)
 	options = (
 		('L', 'likes'),
 		('H', 'hates'),
 	)
 	review = models.CharField(max_length=1, choices=options)
+
+	class Meta:
+		unique_together = ("user", "movie")

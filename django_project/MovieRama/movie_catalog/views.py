@@ -9,6 +9,9 @@ def base(request):
 	return render(request, "movie_catalog/base.html", {})
 
 def index(request):
+	# if request.user.is_authenticated:
+ #    	current_user = request.user.id
+	# else:
 	movie_list = Movie.objects.all()
 	return render(request, "movie_catalog/index.html", {"movie_list":movie_list})
 
