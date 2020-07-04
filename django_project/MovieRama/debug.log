@@ -1,0 +1,383 @@
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/MovieRama/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Something went wrong!
+/Users/georgepetrou/Desktop/django_project/MovieRama/MovieRama/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Something went wrong!
+Something went wrong!
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.7/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.7/site-packages/django/middleware/common.py", line 94, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/index/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.7/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.7/site-packages/django/middleware/common.py", line 94, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/index/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.7/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.7/site-packages/django/middleware/common.py", line 94, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/index/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Internal Server Error: /index
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/usr/local/lib/python3.7/site-packages/django/middleware/common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/usr/local/lib/python3.7/site-packages/django/middleware/common.py", line 94, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/index/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden (CSRF token missing or incorrect.): /index/
+Forbidden (CSRF token missing or incorrect.): /index/
+Forbidden (CSRF token missing or incorrect.): /index/
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 25, in index
+    review_record = Review(user=user_id, movie=movie_id, review='L')
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'3'": "Review.user" must be a "User" instance.
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 25, in index
+    review_record = Review(user=user_id, movie=movie_id, review='L')
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'3'": "Review.user" must be a "User" instance.
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 25, in index
+    review_record = Review(user=user_id, movie=movie_id, review='L')
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 482, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/related_descriptors.py", line 219, in __set__
+    self.field.remote_field.model._meta.object_name,
+ValueError: Cannot assign "'3'": "Review.user" must be a "User" instance.
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 25, in index
+    review_record = Review(User.objects.filter(muser__id=user_id), Movie.objects.filter(movie__id=movie_id), review='L')
+NameError: name 'User' is not defined
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 26, in index
+    review_record = Review(User.objects.filter(user__id=user_id), Movie.objects.filter(movie__id=movie_id), review='L')
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, movie, password, review, user_permissions, username
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 23, in index
+    user = User.objects.filter(user__id=user_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'user' into field. Choices are: date_joined, email, first_name, groups, id, is_active, is_staff, is_superuser, last_login, last_name, logentry, movie, password, review, user_permissions, username
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 30, in index
+    Movie.objects.get(movie__id=movie_id).update(Likes=F('Likes') + 1)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1250, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1087, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1483, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'movie' into field. Choices are: date, description, hates, id, likes, review, title, user, user_id
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 30, in index
+    Movie.objects.get(id=movie_id).update(Likes=F('Likes') + 1)
+AttributeError: 'Movie' object has no attribute 'update'
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 30, in index
+    Movie.objects.filter(id=movie_id).update(Likes=F('Likes') + 1)
+NameError: name 'F' is not defined
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/options.py", line 581, in get_field
+    return self.fields_map[field_name]
+KeyError: 'Likes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 32, in index
+    Movie.objects.filter(id=movie_id).update(Likes=F('Likes') + 1)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 748, in update
+    query.add_update_values(kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/subqueries.py", line 117, in add_update_values
+    field = self.get_meta().get_field(name)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/options.py", line 583, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Movie has no field named 'Likes'
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/options.py", line 581, in get_field
+    return self.fields_map[field_name]
+KeyError: 'Likes'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 32, in index
+    Movie.objects.filter(id=movie_id).update(Likes=F('likes') + 1)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 748, in update
+    query.add_update_values(kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/subqueries.py", line 117, in add_update_values
+    field = self.get_meta().get_field(name)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/options.py", line 583, in get_field
+    raise FieldDoesNotExist("%s has no field named '%s'" % (self.object_name, field_name))
+django.core.exceptions.FieldDoesNotExist: Movie has no field named 'Likes'
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py", line 23, in index
+    make_transactions(user_id, movie_id, button)
+NameError: name 'button' is not defined
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/templatetags/custom_tags.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/django_project/MovieRama/MovieRama/urls.py changed, reloading.
+Watching for file changes with StatReloader

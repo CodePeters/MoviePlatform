@@ -4,7 +4,6 @@
 
 {% block content %}
 		
-
 	<div id="my-list">
 		<div style=" padding-top: 20px;" >
 			<span class=" controls border border-dark col-12" style="display: inline-block; padding-top: 20px;  height: 80px; background-color: #DCDCDC;">
@@ -15,30 +14,46 @@
 			</span>
 		</div>
 
-		<ul class="list list-group align-items-center" style="padding-top: 20px;"> 
+		<ul class="list list-group align-items-center" style="padding-top: 20px; "> 
 		{% for movie in movie_list %}
-			<div style="padding-top: 20px;">
+			<div style="padding-top: 10px; padding-bottom: 10px;">
 				<li class=" card" style="width: 40rem; font-family:Comic Sans MS; ">
 					<div class="card-body">
 						<h4 class="card-title">{{ movie.title }}</h5>
 						<span style="font-size: 14px;">
 							Posted by:
-							<a href="#" class="card-link"> {{ movie.user }}</a>
+							<a href="profile/{{ movie.user }}" class="card-link"> {{ movie.user }}</a>
 							<a class="date" style="padding-left: 10px;"> {{ movie.get_date }} days ago</a>
 						</span>
 						<p class="card-text" style="padding-top: 10px; font-size: 17px;" >{{ movie.description }}</p>
-						<span style="font-size: 14px;">		
+						<span style="font-size: 14px; display:flex;">		
 							<a class="likes"> {{ movie.likes }} Likes</a>
 							<a class="hates card-link"> | {{ movie.hates }} Hates</a>
 
 							{% if user.is_authenticated and user != movie.user %}
-
-
-
-								<a class="hates card-link"> | {{ movie.hates }} Hates</a>
-
-
-
+								
+								<form action="" method="POST" style="position: absolute; right: 5px;">
+									{% csrf_token %}
+									<input type="hidden" name="user" value="{{user.id}}">
+									<input type="hidden" name="movie" value="{{movie.id}}">
+								{% user_likes_or_not movie.id user as is_liked %}
+								{% user_hates_or_not movie.id user as is_hated %}
+                  					{% if is_liked %}
+                  						<a class="card-link" > You like this movie|</a>
+										<button type="submit" name="button" value="UnLike" style="font-size: 10px;" class="btn btn-sm btn-success">UnLike
+										</button>
+                    				{% elif is_hated %}
+                    					<a> You hate this movie|</a>
+										<button type="submit" name="button" value="UnHate" style="font-size: 10px;" class="btn btn-sm btn-success">UnHate
+										</button>
+                    				{% else%}
+                    					<button type="submit" name="button" value="Like" style="font-size: 10px;" class="btn btn-sm btn-success"> Like 
+										</button>
+                    					<a>|</a>
+										<button type="submit" name="button" value="Hate" style="font-size: 10px;" class="btn btn-sm btn-success"> Hate
+										</button>
+                    				{% endif %}
+                    			</form>
 
 							{% endif %}
 						</span>
@@ -50,15 +65,14 @@
 	</div>
 
 	<script type="text/javascript">
-		document.getElementById("b1").addEventListener("click", function(){$(".rotate1").toggleClass("down");} );
+		document.getElementById("b1").addEventListener("click", function(){$(".rotate1").toggleClass("down");});
 		document.getElementById("b2").addEventListener("click", function(){$(".rotate2").toggleClass("down");});
-		document.getElementById("b3").addEventListener("click", function(){$(".rotate3").toggleClass("down");} );
+		document.getElementById("b3").addEventListener("click", function(){$(".rotate3").toggleClass("down");});
 		
 		var options = {
   			valueNames: ['likes', 'hates', 'date']
 		};
 		var myList = new List('my-list', options);
-
   	</script>
 
 {% endblock %}
