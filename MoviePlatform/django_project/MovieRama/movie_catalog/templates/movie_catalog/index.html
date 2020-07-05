@@ -1,0 +1,83 @@
+{% extends "movie_catalog/base.html" %}
+{% load custom_tags %}
+{% block title %} Index {% endblock %}
+
+{% block content %}
+		
+	<div id="my-list">
+		<div style=" padding-top: 20px;" >
+			<span class="controls border border-dark col-12" style="display: inline-block; padding-top: 20px;  height: 80px; background-color: #DCDCDC;">
+				<a style=" padding-left: 10px;"> Sort by: </a>
+				<button id="b1" type="button" class="sort btn btn-outline-dark " data-sort="likes">​l​​ikes​ <i class="rotate1 fa fa-arrow-up"></i></button>
+				<button id="b2" type="button" class="sort btn btn-outline-dark" data-sort="hates">​​hates​​  <i class="rotate2 fa fa-arrow-up"></i></button>
+				<button id="b3" type="button" class="sort btn btn-outline-dark" data-sort="date">date <i class="rotate3 fa fa-arrow-up"></i></button>
+			</span>
+		</div>
+
+		<ul class="list list-group align-items-center" style="padding-top: 20px; "> 
+		{% for movie in movie_list %}
+			<div style="padding-top: 10px; padding-bottom: 10px;">
+				<li class="card custom" style="width: 40rem; font-family:Comic Sans MS; ">
+					<div class="card-body">
+						<h4 class="card-title"><i class="fa fa-video-camera" aria-hidden="true"></i> {{ movie.title }}</h4>
+						<span style="font-size: 14px;">
+							Posted by:
+							<a href="profile/{{ movie.user }}" class="card-link"> {{ movie.user }}</a>
+							<a class="date" style="padding-left: 10px;"> {{ movie.get_date }} days ago</a>
+						</span>
+						<p class="card-text" style="padding-top: 10px; font-size: 17px;" >{{ movie.description }}</p>
+						<span style="font-size: 14px; display:flex;">
+
+							<span class="badge badge-info">
+								Likes <span class="likes badge badge-light">{{ movie.likes }}</span>
+							</span>
+							<span class="badge badge-danger">
+								Hates <span class="hates badge badge-light">{{ movie.hates }}</span>
+							</span>
+
+							{% if user.is_authenticated and user != movie.user %}
+								
+								<form action="" method="POST" style="position: absolute; right: 5px;">
+									{% csrf_token %}
+									<input type="hidden" name="user" value="{{user.id}}">
+									<input type="hidden" name="movie" value="{{movie.id}}">
+								{% user_likes_or_not movie.id user as is_liked %}
+								{% user_hates_or_not movie.id user as is_hated %}
+                  					{% if is_liked %}
+                  						<a class="card-link" > You like this movie|</a>
+										<button type="submit" name="button" value="UnLike" style="font-size: 10px;" class="btn btn-sm btn-success">UnLike
+										</button>
+                    				{% elif is_hated %}
+                    					<a> You hate this movie|</a>
+										<button type="submit" name="button" value="UnHate" style="font-size: 10px;" class="btn btn-sm btn-success">UnHate
+										</button>
+                    				{% else%}
+                    					<button type="submit" name="button" value="Like" style="font-size: 10px;" class="btn btn-sm btn-success"> Like 
+										</button>
+                    					<a>|</a>
+										<button type="submit" name="button" value="Hate" style="font-size: 10px;" class="btn btn-sm btn-success"> Hate
+										</button>
+                    				{% endif %}
+                    			</form>
+
+							{% endif %}
+						</span>
+					</div>
+				</li>
+			</div>
+		{% endfor %}
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		document.getElementById("b1").addEventListener("click", function(){$(".rotate1").toggleClass("down");});
+		document.getElementById("b2").addEventListener("click", function(){$(".rotate2").toggleClass("down");});
+		document.getElementById("b3").addEventListener("click", function(){$(".rotate3").toggleClass("down");});
+		
+		var options = {
+  			valueNames: ['likes', 'hates', 'date']
+		};
+		var myList = new List('my-list', options);
+  	</script>
+
+{% endblock %}

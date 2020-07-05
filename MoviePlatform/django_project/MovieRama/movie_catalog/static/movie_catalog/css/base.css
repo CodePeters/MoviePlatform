@@ -1,0 +1,33 @@
+.rotate1.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+.rotate2.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+.rotate3.down {
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+
+.custom {
+    background-image: linear-gradient(to top, #fdfbfb, #ebedee);
+    border-left: 10px solid purple;
+}
+
+.custom:hover {
+    box-shadow: 0 2px 2px rgba(0,0,0,0.19),0 2px 2px rgba(0,0,0,0.23);
+}
+
+.controls {
+    background-color: azure;
+}
+
+.badge{
+    margin-left: 3px;
+}
