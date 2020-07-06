@@ -1,6 +1,6 @@
 apt update
 apt install python3-pip
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 apt install default-jre
 apt install openjdk-11-jre-headless
 apt install openjdk-8-jre-headless
