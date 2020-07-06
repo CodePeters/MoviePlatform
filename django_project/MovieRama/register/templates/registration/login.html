@@ -4,10 +4,15 @@
 {% block title %} Login {% endblock %}
 
 {% block content %}
-	<form method = "POST" class="form-group">
-		{% csrf_token %}
-		<p>Don't have an account? Create one: <a href="/register">Register</a></p>
-		{{ form|crispy }}
-		<button type="submit" class="btn btn-success">Login</button>
-	</form>	
+	{% if not user.is_authenticated %}
+		<form method = "POST" class="form-group">
+			{% csrf_token %}
+			<p>Don't have an account? Create one: <a href="/register">Register</a></p>
+			{{ form|crispy }}
+			<button type="submit" class="btn btn-success">Login</button>
+		</form>	
+	{% else %}
+		<p><h2 style="font-family:Comic Sans MS;"> You are already logged in</h2></p>
+	{% endif %}
+
 {% endblock %}

@@ -18,7 +18,7 @@
 		{% endblock %}
 	</title>
 </head>
-<body>
+<body class=custom-bg>
 
 	<div id="content", name="content">
 		<div class="row justify-content-center">
@@ -32,11 +32,12 @@
 				    	ovieRama
 					</span>
 				  </a>
-
-				  <form class="form-inline">
-				    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					{% block searchbar %}
+					{% endblock %}
+				<!--   <form class="form-inline" action="search" method="get" >
+				    <input class="form-control mr-sm-2" type="search" placeholder="Search" name="Name" aria-label="Search">
 				    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-				  </form>				  
+				  </form> -->				  
 
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
@@ -52,7 +53,7 @@
 					    	<a class="nav-item nav-link" href="/register">Register</a>
 					    	<a class="nav-item nav-link" href="/login">Login</a>
 					  {% else %}
-					  		<a class="nav-item nav-link" href="/logout">Your Profile</a>
+					  		<a class="nav-item nav-link" href="/index/profile/{{ user.get_username }}">Your Profile</a>
 					  		<a class="nav-item nav-link" href="/index/create">Create Movie</a>
 					  		<a class="nav-item nav-link" href="/logout">Logout</a>
 				      {% endif %}

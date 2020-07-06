@@ -25,7 +25,7 @@ SECRET_KEY = '$*=rz+rdi+r+kl%ith!%p=2balc9+s58#27+%8afkcqtz5hr5d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-18-217-26-67.us-east-2.compute.amazonaws.com', 'ec2-3-128-94-249.us-east-2.compute.amazonaws.com', '127.0.0.1']
 
 
 # Application definition
@@ -40,7 +40,6 @@ INSTALLED_APPS = [
     'crispy_forms',
     'movie_catalog.apps.MovieCatalogConfig',
     'register.apps.RegisterConfig',
-    'search.apps.SearchConfig',
     'django_elasticsearch_dsl',
 ]
 

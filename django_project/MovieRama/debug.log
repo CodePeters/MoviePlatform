@@ -1,1 +1,1941 @@
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /index/search
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/MovieRama/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: search() missing 1 required positional argument: 'param'
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/search/
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/search/
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/search/
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/search/
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/search/
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/search/
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/search/
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /index/search/
+Internal Server Error: /index/search/abc/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: search() got an unexpected keyword argument 'name'
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/search/abc/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 77, in search
+    print(param)
+NameError: name 'param' is not defined
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:N/A request:0.004s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x10cb367d0>: Failed to establish a new connection: [Errno 61] Connection refused
+POST http://localhost:9200/movie/_search [status:N/A request:0.001s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x10cb36a50>: Failed to establish a new connection: [Errno 61] Connection refused
+POST http://localhost:9200/movie/_search [status:N/A request:0.001s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x10cac8550>: Failed to establish a new connection: [Errno 61] Connection refused
+POST http://localhost:9200/movie/_search [status:N/A request:0.001s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x10cac8790>: Failed to establish a new connection: [Errno 61] Connection refused
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x10cac8790>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 81, in search
+    for hit in query:
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/search.py", line 323, in __iter__
+    return iter(self.execute())
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/search.py", line 698, in execute
+    **self._params
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/client/utils.py", line 139, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/client/__init__.py", line 1484, in search
+    body=body,
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/transport.py", line 352, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 245, in perform_request
+    raise ConnectionError("N/A", str(e), e)
+elasticsearch.exceptions.ConnectionError: ConnectionError(<urllib3.connection.HTTPConnection object at 0x10cac8790>: Failed to establish a new connection: [Errno 61] Connection refused) caused by: NewConnectionError(<urllib3.connection.HTTPConnection object at 0x10cac8790>: Failed to establish a new connection: [Errno 61] Connection refused)
+POST http://localhost:9200/movie/_search [status:200 request:0.188s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 83, in search
+    movie_list = Movie.objects.filter(id in tuple(l))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1247, in build_filter
+    arg, value = filter_expr
+TypeError: cannot unpack non-iterable bool object
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.054s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'tuple'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 84, in search
+    movie_list = Movie.objects.filter(id=id_tuple)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+TypeError: Field 'id' expected a number but got (4,).
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.024s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.078s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:400 request:0.496s]
+Internal Server Error: /index/search/search
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 81, in search
+    for hit in query:
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/search.py", line 323, in __iter__
+    return iter(self.execute())
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/search.py", line 698, in execute
+    **self._params
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/client/utils.py", line 139, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/client/__init__.py", line 1484, in search
+    body=body,
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/transport.py", line 352, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 256, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/base.py", line 288, in _raise_error
+    status_code, error_message, additional_info
+elasticsearch.exceptions.RequestError: RequestError(400, 'parsing_exception', '[match] unknown token [START_OBJECT] after [query]')
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/search/search
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 219, in get_dsl_class
+    return cls._classes[name]
+KeyError: 'umlti_match'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 79, in search
+    query = MovieDocument.search().query("umlti_match", title=name)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/search.py", line 43, in __call__
+    proxied._proxied = Q(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/query.py", line 34, in Q
+    return Query.get_dsl_class(name_or_query)(**params)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 223, in get_dsl_class
+    raise UnknownDslObject('DSL class `{}` does not exist in {}.'.format(name, cls._type_name))
+elasticsearch_dsl.exceptions.UnknownDslObject: DSL class `umlti_match` does not exist in query.
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:400 request:0.258s]
+Internal Server Error: /index/search/search
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 81, in search
+    for hit in query:
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/search.py", line 323, in __iter__
+    return iter(self.execute())
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/search.py", line 698, in execute
+    **self._params
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/client/utils.py", line 139, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/client/__init__.py", line 1484, in search
+    body=body,
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/transport.py", line 352, in perform_request
+    timeout=timeout,
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 256, in perform_request
+    self._raise_error(response.status, raw_data)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/base.py", line 288, in _raise_error
+    status_code, error_message, additional_info
+elasticsearch.exceptions.RequestError: RequestError(400, 'parsing_exception', '[multi_match] query does not support [title]')
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.789s]
+POST http://localhost:9200/movie/_search [status:200 request:0.013s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.056s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/search/search
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 219, in get_dsl_class
+    return cls._classes[name]
+KeyError: 'filter'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 80, in search
+    query = MovieDocument.search().query("filter", title=name)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/search.py", line 43, in __call__
+    proxied._proxied = Q(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/query.py", line 34, in Q
+    return Query.get_dsl_class(name_or_query)(**params)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 223, in get_dsl_class
+    raise UnknownDslObject('DSL class `{}` does not exist in {}.'.format(name, cls._type_name))
+elasticsearch_dsl.exceptions.UnknownDslObject: DSL class `filter` does not exist in query.
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.091s]
+POST http://localhost:9200/movie/_search [status:200 request:0.015s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.054s]
+POST http://localhost:9200/movie/_search [status:200 request:0.022s]
+POST http://localhost:9200/movie/_search [status:200 request:0.036s]
+POST http://localhost:9200/movie/_search [status:200 request:0.021s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.040s]
+POST http://localhost:9200/movie/_search [status:200 request:0.018s]
+POST http://localhost:9200/movie/_search [status:200 request:0.056s]
+POST http://localhost:9200/movie/_search [status:200 request:0.017s]
+POST http://localhost:9200/movie/_search [status:200 request:0.014s]
+POST http://localhost:9200/movie/_search [status:200 request:0.016s]
+POST http://localhost:9200/movie/_search [status:200 request:0.082s]
+POST http://localhost:9200/movie/_search [status:200 request:0.019s]
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/movie/_search [status:200 request:0.091s]
+POST http://localhost:9200/movie/_search [status:200 request:0.013s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.021s]
+POST http://localhost:9200/movie/_search [status:200 request:0.025s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.080s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view movie_catalog.views.search didn't return an HttpResponse object. It returned None instead.
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.093s]
+POST http://localhost:9200/movie/_search [status:200 request:0.043s]
+POST http://localhost:9200/movie/_search [status:200 request:0.012s]
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.057s]
+POST http://localhost:9200/movie/_search [status:200 request:0.073s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.052s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.032s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.097s]
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/movie/_search [status:200 request:0.018s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.023s]
+POST http://localhost:9200/movie/_search [status:200 request:0.019s]
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /base
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/profile/user1/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: search() got an unexpected keyword argument 'usrname'
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.061s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.781s]
+POST http://localhost:9200/movie/_search [status:200 request:0.016s]
+POST http://localhost:9200/movie/_search [status:200 request:0.082s]
+POST http://localhost:9200/movie/_search [status:200 request:0.016s]
+POST http://localhost:9200/movie/_search [status:200 request:0.082s]
+POST http://localhost:9200/movie/_search [status:200 request:0.012s]
+POST http://localhost:9200/movie/_search [status:200 request:0.022s]
+POST http://localhost:9200/movie/_search [status:200 request:0.028s]
+POST http://localhost:9200/movie/_search [status:200 request:0.024s]
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:1.201s]
+Internal Server Error: /index/create/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 38, in create_movie
+    movie_record.save()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 795, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/signals.py", line 57, in handle_save
+    registry.update(instance)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/registries.py", line 141, in update
+    doc().update(instance, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/documents.py", line 207, in update
+    **kwargs
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/documents.py", line 188, in _bulk
+    return self.bulk(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/documents.py", line 146, in bulk
+    return bulk(client=self._get_connection(), actions=actions, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/helpers/actions.py", line 360, in bulk
+    for ok, item in streaming_bulk(client, actions, *args, **kwargs):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/helpers/actions.py", line 290, in streaming_bulk
+    **kwargs
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/helpers/actions.py", line 217, in _process_bulk_chunk
+    for item in gen:
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/helpers/actions.py", line 158, in _process_bulk_chunk_success
+    raise BulkIndexError("%i document(s) failed to index." % len(errors), errors)
+elasticsearch.helpers.errors.BulkIndexError: ('1 document(s) failed to index.', [{'index': {'_index': 'movie', '_type': '_doc', '_id': '6', 'status': 429, 'error': {'type': 'cluster_block_exception', 'reason': 'index [movie] blocked by: [TOO_MANY_REQUESTS/12/index read-only / allow delete (api)];'}, 'data': {'title': 'Starsky and Hutch2', 'description': 'Newest version for elastic to see updates', 'id': 6}}}])
+POST http://localhost:9200/movie/_search [status:200 request:0.408s]
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.014s]
+Internal Server Error: /index/create/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 38, in create_movie
+    movie_record.save()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 795, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/signals.py", line 57, in handle_save
+    registry.update(instance)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/registries.py", line 141, in update
+    doc().update(instance, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/documents.py", line 207, in update
+    **kwargs
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/documents.py", line 188, in _bulk
+    return self.bulk(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/documents.py", line 146, in bulk
+    return bulk(client=self._get_connection(), actions=actions, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/helpers/actions.py", line 360, in bulk
+    for ok, item in streaming_bulk(client, actions, *args, **kwargs):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/helpers/actions.py", line 290, in streaming_bulk
+    **kwargs
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/helpers/actions.py", line 217, in _process_bulk_chunk
+    for item in gen:
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/helpers/actions.py", line 158, in _process_bulk_chunk_success
+    raise BulkIndexError("%i document(s) failed to index." % len(errors), errors)
+elasticsearch.helpers.errors.BulkIndexError: ('1 document(s) failed to index.', [{'index': {'_index': 'movie', '_type': '_doc', '_id': '7', 'status': 429, 'error': {'type': 'cluster_block_exception', 'reason': 'index [movie] blocked by: [TOO_MANY_REQUESTS/12/index read-only / allow delete (api)];'}, 'data': {'title': 'scary movie 2', 'description': 'Testing es', 'id': 7}}}])
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.262s]
+POST http://localhost:9200/movie/_search [status:200 request:0.103s]
+POST http://localhost:9200/movie/_search [status:200 request:0.211s]
+POST http://localhost:9200/movie/_search [status:200 request:0.018s]
+POST http://localhost:9200/movie/_search [status:200 request:0.017s]
+POST http://localhost:9200/movie/_search [status:200 request:0.011s]
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 127, in __getattr__
+    return self.__getitem__(attr_name)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 140, in __getitem__
+    return _wrap(self._d_[key])
+KeyError: 'get_instances_from_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/views.py", line 92, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 131, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/base_user.py", line 66, in save
+    super().save(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 795, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/signals.py", line 58, in handle_save
+    registry.update_related(instance)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/registries.py", line 106, in update_related
+    related = doc_instance.get_instances_from_related(instance)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 436, in __getattr__
+    return super(ObjectBase, self).__getattr__(name)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 130, in __getattr__
+    '{!r} object has no attribute {!r}'.format(self.__class__.__name__, attr_name))
+AttributeError: 'MovieDocument' object has no attribute 'get_instances_from_related'
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/MovieRama/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+DELETE http://localhost:9200/movie [status:N/A request:0.026s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1160a5690>: Failed to establish a new connection: [Errno 61] Connection refused
+DELETE http://localhost:9200/movie [status:N/A request:0.001s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x1160ac390>: Failed to establish a new connection: [Errno 61] Connection refused
+DELETE http://localhost:9200/movie [status:N/A request:0.001s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x116160d50>: Failed to establish a new connection: [Errno 61] Connection refused
+DELETE http://localhost:9200/movie [status:N/A request:0.001s]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch/connection/http_urllib3.py", line 233, in perform_request
+    method, url, body, retries=Retry(False), headers=request_headers, **kw
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/usr/local/lib/python3.7/site-packages/urllib3/util/retry.py", line 379, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/local/lib/python3.7/site-packages/urllib3/packages/six.py", line 735, in reraise
+    raise value
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1244, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1290, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1239, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 1026, in _send_output
+    self.send(msg)
+  File "/usr/local/Cellar/python/3.7.4_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py", line 966, in send
+    self.connect()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.7/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x116172050>: Failed to establish a new connection: [Errno 61] Connection refused
+DELETE http://localhost:9200/movie [status:200 request:0.265s]
+PUT http://localhost:9200/movie [status:200 request:0.575s]
+DELETE http://localhost:9200/movie [status:200 request:0.147s]
+PUT http://localhost:9200/movie [status:200 request:0.518s]
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.172s]
+Watching for file changes with StatReloader
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /index/
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/MovieRama/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+POST http://localhost:9200/movie/_search [status:200 request:0.130s]
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 127, in __getattr__
+    return self.__getitem__(attr_name)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 140, in __getitem__
+    return _wrap(self._d_[key])
+KeyError: 'get_instances_from_related'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/decorators/debug.py", line 76, in sensitive_post_parameters_wrapper
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/views.py", line 63, in dispatch
+    return super().dispatch(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/views.py", line 92, in form_valid
+    auth_login(self.request, form.get_user())
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/__init__.py", line 131, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/base_user.py", line 66, in save
+    super().save(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 746, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/base.py", line 795, in save_base
+    update_fields=update_fields, raw=raw, using=using,
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in send
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django/dispatch/dispatcher.py", line 175, in <listcomp>
+    for receiver in self._live_receivers(sender)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/signals.py", line 58, in handle_save
+    registry.update_related(instance)
+  File "/usr/local/lib/python3.7/site-packages/django_elasticsearch_dsl/registries.py", line 106, in update_related
+    related = doc_instance.get_instances_from_related(instance)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 436, in __getattr__
+    return super(ObjectBase, self).__getattr__(name)
+  File "/usr/local/lib/python3.7/site-packages/elasticsearch_dsl/utils.py", line 130, in __getattr__
+    '{!r} object has no attribute {!r}'.format(self.__class__.__name__, attr_name))
+AttributeError: 'MovieDocument' object has no attribute 'get_instances_from_related'
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.107s]
+GET http://localhost:9200/ [status:200 request:0.019s]
+GET http://localhost:9200/ [status:200 request:0.002s]
+GET http://localhost:9200/*/_alias [status:200 request:0.003s]
+POST http://localhost:9200/movie/_search [status:200 request:0.036s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:400 request:0.032s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.040s]
+POST http://localhost:9200/movie/_search [status:200 request:0.011s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:400 request:0.003s]
+POST http://localhost:9200/_search [status:200 request:0.013s]
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/movie/_search [status:200 request:0.025s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+DELETE http://localhost:9200/movie [status:200 request:0.133s]
+PUT http://localhost:9200/movie [status:200 request:0.574s]
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.107s]
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.014s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 98, in search
+    l.append(movie)
+NameError: name 'l' is not defined
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.015s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 101, in search
+    return render(request, "movie_catalog/index.html", {"movie_list":movie_list})
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 986, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 670, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 795, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 857, in _resolve_lookup
+    current = current()
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/models.py", line 17, in get_date
+    return (timenow-self.date).days
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'str'
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.011s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 97, in search
+    movie = Movie(title=hit['title'], description=hit['description'], date=DateTime.Parse(hit['date']), likes=hit['likes'], hates=hit['hates'])
+NameError: name 'DateTime' is not defined
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.012s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 97, in search
+    movie = Movie(title=hit['title'], description=hit['description'], date=datetime.DateTime.Parse(hit['date']), likes=hit['likes'], hates=hit['hates'])
+AttributeError: module 'datetime' has no attribute 'DateTime'
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.035s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 97, in search
+    movie = Movie(title=hit['title'], description=hit['description'], date=datetime.strptime(hit['date'],'%Y-%m-%d'), likes=hit['likes'], hates=hit['hates'])
+AttributeError: module 'datetime' has no attribute 'strptime'
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 101, in search
+    return render(request, "movie_catalog/index.html", {"movie_list":movie_list})
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/usr/local/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 986, in render
+    output = self.filter_expression.resolve(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 670, in resolve
+    obj = self.var.resolve(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 795, in resolve
+    value = self._resolve_lookup(context)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 857, in _resolve_lookup
+    current = current()
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/models.py", line 17, in get_date
+    return (timenow-self.date).days
+TypeError: unsupported operand type(s) for -: 'datetime.date' and 'datetime.datetime'
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.127s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/register/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.121s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.032s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+Internal Server Error: /index/profile/user1/search/search
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 84, in search
+    make_transactions(user_id, movie_id, button)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 60, in make_transactions
+    movie = Movie.objects.get(id=movie_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'None'.
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 26, in index
+    return render(request, "movie_catalog/index.html", {"movie_list":movie_list})
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 527, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'end', expected 'endblock'. Did you forget to register or load this tag?
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.064s]
+POST http://localhost:9200/movie/_search [status:200 request:0.011s]
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.023s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 108, in search
+    return render(request, "movie_catalog/search.html", {"movie_list":movie_list})
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 527, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'end', expected 'endblock'. Did you forget to register or load this tag?
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+Internal Server Error: /index/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'end'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 108, in search
+    return render(request, "movie_catalog/search.html", {"movie_list":movie_list})
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 527, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'end', expected 'endblock'. Did you forget to register or load this tag?
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/profile/user1/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 55, in profile
+    return render(request, "movie_catalog/profile.html", {"movie_list":movie_list, "username":usrname})
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/defaulttags.py", line 959, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/smartif.py", line 190, in parse
+    retval = self.expression()
+  File "/usr/local/lib/python3.7/site-packages/django/template/smartif.py", line 200, in expression
+    left = t.nud(self)
+  File "/usr/local/lib/python3.7/site-packages/django/template/smartif.py", line 144, in nud
+    raise parser.error_class("Unexpected end of expression in if tag.")
+django.template.exceptions.TemplateSyntaxError: Unexpected end of expression in if tag.
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.063s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.021s]
+Internal Server Error: /index/profile/user2/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 84, in search
+    make_transactions(user_id, movie_id, button)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 60, in make_transactions
+    movie = Movie.objects.get(id=movie_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'None'.
+Internal Server Error: /index/profile/user2/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 84, in search
+    make_transactions(user_id, movie_id, button)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 60, in make_transactions
+    movie = Movie.objects.get(id=movie_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'None'.
+POST http://localhost:9200/movie/_search [status:200 request:0.014s]
+Internal Server Error: /index/profile/user2/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 84, in search
+    make_transactions(user_id, movie_id, button)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 60, in make_transactions
+    movie = Movie.objects.get(id=movie_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'None'.
+Internal Server Error: /index/profile/user2/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 84, in search
+    make_transactions(user_id, movie_id, button)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 60, in make_transactions
+    movie = Movie.objects.get(id=movie_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'None'.
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/profile/user2/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 86, in search
+    make_transactions(user_id, movie_id, button)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 60, in make_transactions
+    movie = Movie.objects.get(id=movie_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'None'.
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /index/profile/user2/search/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1772, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'None'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 86, in search
+    make_transactions(user_id, movie_id, button)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 60, in make_transactions
+    movie = Movie.objects.get(id=movie_id)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 404, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 904, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/query.py", line 923, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1350, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1381, in _add_q
+    check_filterable=check_filterable,
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1311, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 22, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/lookups.py", line 72, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1776, in get_prep_value
+    ) from e
+ValueError: Field 'id' expected a number but got 'None'.
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.009s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.011s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.003s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.003s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.011s]
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/MovieRama/settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /index/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 469, in parse
+    compile_func = self.tags[command]
+KeyError: 'user_likes_or_not'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py", line 26, in index
+    return render(request, "movie_catalog/index.html", {"movie_list":movie_list})
+  File "/usr/local/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python3.7/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/defaulttags.py", line 811, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 477, in parse
+    raise self.error(token, e)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 475, in parse
+    compiled_result = compile_func(self, token)
+  File "/usr/local/lib/python3.7/site-packages/django/template/defaulttags.py", line 952, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 471, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python3.7/site-packages/django/template/base.py", line 527, in invalid_block_tag
+    get_text_list(["'%s'" % p for p in parse_until], 'or'),
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 41: 'user_likes_or_not', expected 'elif', 'else' or 'endif'. Did you forget to register or load this tag?
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.099s]
+POST http://localhost:9200/_bulk?refresh=true [status:200 request:0.084s]
+POST http://localhost:9200/movie/_search [status:200 request:0.016s]
+POST http://localhost:9200/movie/_search [status:200 request:0.005s]
+POST http://localhost:9200/movie/_search [status:200 request:0.010s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.006s]
+POST http://localhost:9200/movie/_search [status:200 request:0.007s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.004s]
+POST http://localhost:9200/movie/_search [status:200 request:0.008s]
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/views.py changed, reloading.
+Watching for file changes with StatReloader
+/Users/georgepetrou/Desktop/MoviePlatform/django_project/MovieRama/movie_catalog/documents.py changed, reloading.
+Watching for file changes with StatReloader

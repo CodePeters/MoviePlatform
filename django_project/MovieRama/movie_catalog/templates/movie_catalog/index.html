@@ -2,17 +2,27 @@
 {% load custom_tags %}
 {% block title %} Index {% endblock %}
 
+{% block searchbar %}
+		<form class="form-inline" action= "{{ request.path }}search" method="get" >
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" name="Name" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
+{% endblock %}
+
+
 {% block content %}
-		
+
 	<div id="my-list">
 		<div style=" padding-top: 20px;" >
-			<span class="controls border border-dark col-12" style="display: inline-block; padding-top: 20px;  height: 80px; background-color: #DCDCDC;">
+			<span class="cpanel controls border border-dark col-12">
 				<a style=" padding-left: 10px;"> Sort by: </a>
-				<button id="b1" type="button" class="sort btn btn-outline-dark " data-sort="likes">​l​​ikes​ <i class="rotate1 fa fa-arrow-up"></i></button>
-				<button id="b2" type="button" class="sort btn btn-outline-dark" data-sort="hates">​​hates​​  <i class="rotate2 fa fa-arrow-up"></i></button>
-				<button id="b3" type="button" class="sort btn btn-outline-dark" data-sort="date">date <i class="rotate3 fa fa-arrow-up"></i></button>
+				<button id="b1" type="button" class="sort custom-btn custom-like-btn btn-outline-dark " data-sort="likes"> <i class="fa fa-thumbs-up" aria-hidden="true"></i><i class="rotate1 fa fa-arrow-up"></i></button>
+				<button id="b2" type="button" class="sort custom-btn custom-hate-btn btn-outline-dark" data-sort="hates"><i class="fa fa-thumbs-down" aria-hidden="true"></i><i class="rotate2 fa fa-arrow-up"></i></button>
+				<button id="b3" type="button" class="sort custom-btn custom-date-btn btn-outline-dark" data-sort="date"><i class="fa fa-calendar" aria-hidden="true"></i><i class="rotate3 fa fa-arrow-up"></i></button>
 			</span>
 		</div>
+
+		{% block profile %} {% endblock %}
 
 		<ul class="list list-group align-items-center" style="padding-top: 20px; "> 
 		{% for movie in movie_list %}
@@ -22,7 +32,7 @@
 						<h4 class="card-title"><i class="fa fa-video-camera" aria-hidden="true"></i> {{ movie.title }}</h4>
 						<span style="font-size: 14px;">
 							Posted by:
-							<a href="profile/{{ movie.user }}" class="card-link"> {{ movie.user }}</a>
+							<a href="/index/profile/{{ movie.user }}" class="card-link"> {{ movie.user }}</a>
 							<a class="date" style="padding-left: 10px;"> {{ movie.get_date }} days ago</a>
 						</span>
 						<p class="card-text" style="padding-top: 10px; font-size: 17px;" >{{ movie.description }}</p>
@@ -41,21 +51,21 @@
 									{% csrf_token %}
 									<input type="hidden" name="user" value="{{user.id}}">
 									<input type="hidden" name="movie" value="{{movie.id}}">
-								{% user_likes_or_not movie.id user as is_liked %}
-								{% user_hates_or_not movie.id user as is_hated %}
+								{% user_likes_or_not movie.id user.id as is_liked %}
+								{% user_hates_or_not movie.id user.id as is_hated %}
                   					{% if is_liked %}
                   						<a class="card-link" > You like this movie|</a>
-										<button type="submit" name="button" value="UnLike" style="font-size: 10px;" class="btn btn-sm btn-success">UnLike
+										<button type="submit" name="button" value="UnLike" style="font-size: 10px; outline: none;" class="custom-date-btn btn-lg"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i>
 										</button>
                     				{% elif is_hated %}
                     					<a> You hate this movie|</a>
-										<button type="submit" name="button" value="UnHate" style="font-size: 10px;" class="btn btn-sm btn-success">UnHate
+										<button type="submit" name="button" value="UnHate" style="font-size: 10px;" 
+										class="custom-date-btn btn-lg"><i class="fa fa-refresh fa-lg" aria-hidden="true"></i>
 										</button>
                     				{% else%}
-                    					<button type="submit" name="button" value="Like" style="font-size: 10px;" class="btn btn-sm btn-success"> Like 
+                    					<button type="submit" name="button" value="Like" style="font-size: 10px; outline: none;" class="custom-like-btn btn-lg"><i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i>
 										</button>
-                    					<a>|</a>
-										<button type="submit" name="button" value="Hate" style="font-size: 10px;" class="btn btn-sm btn-success"> Hate
+										<button type="submit" name="button" value="Hate" style="font-size: 10px; outline: none;" class="custom-hate-btn btn-lg"><i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i>
 										</button>
                     				{% endif %}
                     			</form>
