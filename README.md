@@ -10,7 +10,7 @@ A social sharing movie platform
 * HTML/CSS/BOOSTRAP/JS/JQuery/Listjs
 
 ## _Installation__
-Run `sudo ./install.sh` (install.sh is in django_projects/installation folder)
+Run `sudo ./install.sh` (install.sh is in django_projects/installation folder)`
 
 ## _Run_
 1. Go to folder `./django_project/MovieRama/` :
@@ -23,6 +23,4 @@ Run `sudo ./install.sh` (install.sh is in django_projects/installation folder)
 Everything is up and running !!!
 
 Log is generated in `./django_project/MovieRama/` folder.
-
-Finally, a running instance is available at: http://ec2-3-128-94-249.us-east-2.compute.amazonaws.com/index/
 
